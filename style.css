@@ -1,0 +1,115 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BASE */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #111, #2a2a2a);
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  opacity: 0.85;
+}
+
+/* CONTENIDO */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+section p {
+  margin-bottom: 18px;
+  color: #555;
+}
+
+/* BOTONES */
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+/* DORADO */
+.btn-gold {
+  background: linear-gradient(135deg, #c9a24d, #e6c87a);
+  color: #111;
+}
+
+/* WHATSAPP */
+.btn-whatsapp {
+  background: #25D366;
+  color: white;
+}
+
+/* OUTLINE */
+.btn-outline {
+  border: 2px solid #c9a24d;
+  color: #c9a24d;
+  background: transparent;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 25px 15px;
+  background: #111;
+  color: #aaa;
+  font-size: 13px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  section {
+    padding: 22px;
+  }
+}
